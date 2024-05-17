@@ -2,7 +2,62 @@
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
+    
 }
+nav {
+   min-height: 70px;
+   line-height: 70px;
+   background-color: rgba(39, 102, 81, 0.685);
+   width:100%;
+}
+#logo {
+   font-size: 40px;
+   padding: 15px;
+   margin: 25px;
+   font-style: italic;
+   font-weight: bolder;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+ul {
+   float:right;
+}
+nav li {
+   display: inline-block;
+ 
+ 
+}
+ li a {
+   color:white;
+   cursor: pointer;
+   font-size: 22px;
+   text-decoration: none;
+   width:25%;
+  
+   margin-right: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.clearfix::after {
+   display: inline-block;
+   content: " ";
+   clear:all;
+}
+
+li a:hover{
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
 /* this is external css */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,7 +110,7 @@ body {
 
  .clearfix::after {
     content: "";
-    display: inline-block;
+    display:block;
     clear:all;
  }
  #blog .blog1:nth-child(2){
